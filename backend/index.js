@@ -22,7 +22,7 @@ const appMiddleware = (req, res, next) => {
 
 server.use(appMiddleware);
 
-// food-app front end request resolving
+
 
 //token verify middleware
 const jwtMiddleware = (req, res, next) => {

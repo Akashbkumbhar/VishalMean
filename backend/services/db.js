@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/food-app", () => {
+mongoose.connect("mongodb://localhost:27017/sneaker", () => {
   console.log("monogodb connection sucessful!!");
 });
 
